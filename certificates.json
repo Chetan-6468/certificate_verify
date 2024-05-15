@@ -73,6 +73,30 @@
         "Duration": "1 Month"
     },
     {
+        "Certificate ID": "HI48CS83",
+        "Name": "Prabhtesh Mishra ",
+        "Domain": "Web Development",
+        "Duration": "1 Month"
+    },
+    {
+        "Certificate ID": "HI48CS84",
+        "Name": "Daksh Gaur ",
+        "Domain": "Web development",
+        "Duration": "1 Month"
+    },
+    {
+        "Certificate ID": "HI48CS85",
+        "Name": "Abhay Pratap Singh  ",
+        "Domain": "Python development",
+        "Duration": "1 Month"
+    },
+    {
+        "Certificate ID": "HI48CS*",
+        "Name": "Jishnu ",
+        "Domain": "Artificial intelligence",
+        "Duration": "1 Month"
+    },
+    {
         "Certificate ID": "HI48CS*",
         "Name": "Jishnu ",
         "Domain": "Artificial intelligence",
