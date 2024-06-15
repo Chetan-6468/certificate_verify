@@ -281,5 +281,35 @@
         "Name": "Padma Shree S",
         "Domain": "Artificial Intelligence",
         "Duration": "1 Month"
+    },
+    {
+        "Certificate ID": "HI48119",
+        "Name": "Anurag Dixit",
+        "Domain": "Web development",
+        "Duration": "2 Month"
+    },
+    {
+        "Certificate ID": "HI48120",
+        "Name": "Yashodharani Arava",
+        "Domain": "Data Science",
+        "Duration": "1 Month"
+    },
+    {
+        "Certificate ID": "HI48121",
+        "Name": "Sohil Khan",
+        "Domain": "Web Development",
+        "Duration": "1 Month"
+    },
+    {
+        "Certificate ID": "HI48122",
+        "Name": "Varun kumar",
+        "Domain": "Web Development",
+        "Duration": "2 Month"
+    },
+    {
+        "Certificate ID": "HI48123",
+        "Name": "Avika Gupta",
+        "Domain": "Web development",
+        "Duration": "1 Month"
     }
 ]
