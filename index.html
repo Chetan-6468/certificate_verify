@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Verification</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('register-bg.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 600px;
+        }
+
+        .title {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            margin-bottom: 20px;
+            width: calc(100% - 22px);
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 12px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #verificationResult {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .success-container, .warning-container {
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .success-container {
+            background-color: #000000;
+            color: #fff;
+            position: relative;
+            animation: fadeInUp 0.5s forwards;
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .warning-container {
+    background-color: #FF6347; /* Tomato */
+    color: #fff;
+}
+
+
+.popup-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 9999;
+}
+
+.popup-content {
+    color: #fff;
+    text-align: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 24px;
+}
+
+.success-container, .warning-container {
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.success-container {
+    background-color: #000000;
+    color: #fff;
+    position: relative;
+    animation: fadeInUp 0.5s forwards;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px; 
+    height: auto;
+    margin-bottom: 20px; 
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="background.png" alt="Company Logo" class="logo">
+        <h1 class="title">Verify your Certificate</h1>
+        <form id="verificationForm">
+            <label for="certificateNumber">Enter Certificate Number:</label>
+            <input type="text" id="certificateNumber" />
+            <button type="submit">Verify</button>
+        </form>
+        <div id="verificationResult"></div>
+    </div>
+    <div id="confettiContainer"></div>
+    <script src="script.js"></script>
+</body>
+</html>
