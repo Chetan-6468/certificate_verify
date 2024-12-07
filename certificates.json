@@ -1495,7 +1495,7 @@
         "Duration": "1 Month"
     },
     {
-        "Certificate ID": "HI48420",
+        "Certificate ID": "HI48420 ",
         "Name": "Nithin Gowda M S ",
         "Domain": "Cyber Security",
         "Duration": "2 Month"
@@ -3205,10 +3205,10 @@
         "Duration": "1 Month"
     },
     {
-        "Certificate ID": "HI487*",
-        "Name": "",
-        "Domain": "Web development",
-        "Duration": "1 Month"
+        "Certificate ID": "HI48420",
+        "Name": "Suryansh Shrivastava",
+        "Domain": "Python development",
+        "Duration": "2 Month"
     },
     {
         "Certificate ID": "HI487*",
